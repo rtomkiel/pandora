@@ -1,0 +1,54 @@
+<body class="servicos">
+
+
+    <div id="page-wrapper">
+
+      <header id="header" class="">
+        {{ partial "header.html" . }}
+      </header>
+
+      </div>
+      <div class="color">
+<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Nossos serviços</h2>
+									<p>A Infosat BG está preparada para oferecer o que há de melhor no mercado em soluções inteligentes e pensadas exculsivamente para cada cliente. Nossa equipe, com mais de 20 anos de experiência
+									está preparada para....</p>
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/Antenas-site.jpg" alt="Instalação de Antenas" /></a>
+											<h3 class="major">Instalação de Antenas</h3>
+											<p>Uma equipe técnica especializada e com mais de 20 anos de experiência e a mais avançada linha de antenas e receptores de sinal. </p>
+											<a href="{{ .Site.BaseURL }}/servicos/instalacao-de-antenas/" class="special">Saiba mais</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/oi-tv-site.jpg" alt="TV à cabo" /></a>
+											<h3 class="major">TV à cabo</h3>
+											<p>Somos parceiros das maiores empresas e trazemos os melhores preços e as últimas tecnologias.<br> Sua TV em alta resolução!</p>
+											<a href="{{ .Site.BaseURL }}/servicos/oi-tv/" class="special">Saiba mais</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/cameras-site.jpg" alt="Segurança patrimonial" /></a>
+											<h3 class="major">Segurança patrimonial</h3>
+											<p>Contamos com câmeras de alta resoluçao, sistemas inteligentes e uma equipe preparada para garantir toda a segurança que sua família e patrimônio precisam.</p>
+											<a href="{{ .Site.BaseURL }}/servicos/seguranca/" class="special">Saiba mais</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/Eletronicos-site.jpg" alt="Eletrônicos" /></a>
+											<h3 class="major">Eletrônicos</h3>
+											<p>Trabalhamos com os maiores fornecedores de tecnologia e trazemos o que há de mais moderno em suprimentos de informática e equipamentos eletrônicos.</p>
+											<a href="{{ .Site.BaseURL }}/servicos/eletronicos/" class="special">Saiba mais</a>
+										</article>
+									</section>
+								</div>
+							</section>
+
+					</section>
+					{{ partial "footer.html" . }}
+			      </div>
+
+
+			  <!-- Scripts -->
+			  {{ partial "scripts.html" . }}
+			</body>

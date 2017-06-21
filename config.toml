@@ -1,0 +1,6 @@
+baseURL = "https://infosatbg.com.br"
+languageCode = "pt-br"
+title = "Infosat BG Instalação de Antenas | Bento Gonçalves"
+theme = "pandora"
+[params]
+email = "contato@infosatbg.com.br"
